@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
 import { FlexBoxComponent } from './practice/flex-box/flex-box.component';
-import { AbsoluteRelativeComponent } from './practice/designPatterns/practice/absolute-relative/absolute-relative.component';
+import { BasicHighlightAttributeDirective } from './practice/angular/directives/basic-highligh-attribute.directive';
+import { BetterHighlightAttributeDirective } from './practice/angular/directives/better-highlight-attribute.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResumeComponent,
     FlexBoxComponent,
-    AbsoluteRelativeComponent
+    BasicHighlightAttributeDirective,
+    BetterHighlightAttributeDirective
   ],
   imports: [
     BrowserModule,
