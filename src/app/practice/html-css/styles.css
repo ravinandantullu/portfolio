@@ -1,0 +1,55 @@
+body {
+  /* background: url(Images/background.jpeg) no-repeat center center fixed; */
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+  overflow: hidden;
+  padding: 1rem;
+  background-color: tomato;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 7%;
+}
+
+hr {
+  width: 80%;
+}
+
+.fb {
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+/* for adjusting the width of checkbox */
+
+.container input[type=checkbox] {
+  width: auto;
+}
+
+/* signup button at the end */
+.btn {
+  padding: 1rem;
+  background-color: #2ecc71;
+  font-size: 1rem;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+}
