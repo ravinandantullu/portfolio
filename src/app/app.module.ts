@@ -7,6 +7,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { FlexBoxComponent } from './practice/flex-box/flex-box.component';
 import { BasicHighlightAttributeDirective } from './practice/angular/directives/basic-highligh-attribute.directive';
 import { BetterHighlightAttributeDirective } from './practice/angular/directives/better-highlight-attribute.directive';
+import { FollowEyesComponent } from './components/follow-eyes/follow-eyes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BetterHighlightAttributeDirective } from './practice/angular/directives
     ResumeComponent,
     FlexBoxComponent,
     BasicHighlightAttributeDirective,
-    BetterHighlightAttributeDirective
+    BetterHighlightAttributeDirective,
+    FollowEyesComponent
   ],
   imports: [
     BrowserModule,
