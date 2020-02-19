@@ -1,19 +1,50 @@
 <div id="resume">
-  <h1 class="name">Hi, I'm Ravinandan</h1>
-  <h2>a freelance web developer <br>
-    specialized in front-end development.
-  </h2>
-  <div class="portfolio-button">
-    <button class="portfolio">PORTFOLIO</button>
-    <button class="my-offer">CONTACT ME</button>
+  <div class="header headers details">
+    <div class="left-header">
+      <div class="name">{{headerDetails.name}}</div>
+      <div class="email">{{headerDetails.email}}</div>
+    </div>
+    <div class="right-header">
+      <div class="likidln-url">{{headerDetails.likidlnUrl}}</div>
+      <div class="phone-number">{{headerDetails.phoneNumber}}</div>
+    </div>
+  </div>
+  <hr>
+  <div class="professional-summary">
+    <h3 class="headers">PROFESSIONAL SUMMARY</h3>
+    <ul class="text">
+      <li *ngFor="let item of professionalSummary">{{item}}</li>
+    </ul>
+  </div>
+  <div class="technical-competencies">
+    <h3 class="headers">TECHNICAL COMPETENCIES</h3>
+    <table class="text">
+      <tr *ngFor="let item of technicalCompetencies">
+        <td class="td-tech-name">{{item.techName}}:</td>
+        <td>{{item.technologies}}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="experience">
+    <h3 class="headers">EXPERIENCE</h3>
+    <div *ngFor="let item of workExperience">
+      <div class="header">
+        <div class="left-header company">{{item.company}}</div>
+        <div class="right-header exp-year">{{item.experience}}</div>
+      </div>
+      <ul class="text">
+        <li *ngFor="let text of item.summary">{{text}}</li>
+      </ul>
+      <div class="environment text">
+        <span class="env-text">Environment: </span><span>{{item.environment}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="education">
+    <h3 class="headers">EDUCATION</h3>
+    <div class="header">
+      <div class="left-header company">{{education.collegeName}}</div>
+      <div class="right-header exp-year">{{education.year}}</div>
+    </div>
   </div>
 </div>
-
-<!-- <div class="resume">
-  <div class="header">
-    <div class="name">{{headerDetails.name}}</div>
-    <div class="email">{{headerDetails.email}}</div>
-    <div class="likidln_url">{{headerDetails.likidlnUrl}}</div>
-    <div class="phone_number">{{headerDetails.phoneNumber}}</div>
-  </div>
-</div> -->
