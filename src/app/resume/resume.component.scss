@@ -1,7 +1,73 @@
 :host {
   #resume {
-    background-image: url('src/assets/profileImage.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 60px;
+    font-family: Sans-serif;
+
+    .headers,
+    .header {
+      color: #5DADE2;
+
+      font: {
+        size: 20px;
+        weight: 600;
+      }
+    }
+
+    .details {
+      overflow: auto;
+    }
+
+    .text {
+      font: {
+        size: 16px;
+      }
+
+      color: black;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .technical-competencies {
+      .td-tech-name {
+        width: 250px;
+        font-weight: 600;
+      }
+    }
+
+    .header {
+      display: flex;
+
+      .left-header {
+        flex-grow: 1;
+      }
+
+      .right-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        flex-grow: 1;
+      }
+
+      .company,
+      .exp-year {
+        color: black;
+      }
+    }
+
+    hr {
+      height: 0px;
+      border: 2px solid #5DADE2;
+    }
+
+    .experience {
+      .environment {
+        margin-bottom: 20px;
+
+        .env-text {
+          font-weight: 600;
+        }
+      }
+    }
   }
 }
