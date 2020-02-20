@@ -1,8 +1,8 @@
 #eyes {
+  background-color: cadetblue;
   position: absolute;
-  top: 50%;
-  //   transform: translate(-50%);
   width: 100%;
+  height: 100%;
   text-align: center;
 
   .eye {
@@ -26,28 +26,5 @@
     transform: translate(-50%, -50%);
     border-radius: 50%;
     border: 15px solid #333;
-  }
-}
-
-#parent {
-  background-color: gold;
-  border: 10px solid gold;
-  padding: 20px;
-
-  .child {
-    padding: 10px;
-  }
-
-  .child-one {
-    padding: 5px;
-    background-color: rosybrown;
-  }
-
-  .child-two {
-    background-color: burlywood;
-  }
-
-  .child-three {
-    background-color: darkkhaki;
   }
 }
