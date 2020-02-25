@@ -1,0 +1,7 @@
+<div id="to-do">
+  <form [formGroup]="addUserForm" (ngSubmit)="addTodoList()">
+    <label for="firstname">Add the todo</label>
+    <input type="toDoValue" formControlName="todoValue">
+    <button class="" type="submit">Add User</button>
+  </form>
+</div>
