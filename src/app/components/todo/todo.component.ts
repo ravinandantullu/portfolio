@@ -19,7 +19,7 @@ export class TodoComponent implements OnInit {
   }
 
   addTodoList() {
-    console.log('Adding to do list.');
+    const nextId = this.toDoService.toDoList[0].id + 1;
+    this.toDoService.toDoList.push({ id: nextId, toDoValue: this.addUserForm.value.todoValue });
   }
-
 }

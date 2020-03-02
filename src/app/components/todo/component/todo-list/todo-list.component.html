@@ -1,0 +1,9 @@
+<div class="todo-list">
+  <div>To-Do List</div>
+  <ul>
+    <li *ngFor="let item of toDoService.toDoList">
+      {{item.id}} {{item.toDoValue}}
+      <button type="button" (click)='deleteToDoList(item.id)'>Delete</button>
+    </li>
+  </ul>
+</div>
