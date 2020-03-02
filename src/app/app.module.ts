@@ -9,10 +9,10 @@ import { FlexBoxComponent } from './practice/flex-box/flex-box.component';
 import { BasicHighlightAttributeDirective } from './practice/angular/directives/basic-highligh-attribute.directive';
 import { BetterHighlightAttributeDirective } from './practice/angular/directives/better-highlight-attribute.directive';
 import { FollowEyesComponent } from './components/follow-eyes/follow-eyes.component';
+
 import { ResumeModule } from './resume/resume.module';
-import { TodoComponent } from './components/todo/todo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ToDoService } from './components/todo/services/to-do.service';
+import { TodoModule } from './components/todo/todo.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,6 @@ import { ToDoService } from './components/todo/services/to-do.service';
     BasicHighlightAttributeDirective,
     BetterHighlightAttributeDirective,
     FollowEyesComponent,
-    TodoComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,9 +28,10 @@ import { ToDoService } from './components/todo/services/to-do.service';
     FormsModule,
     ReactiveFormsModule,
     FormPracticeModule,
-    ResumeModule
+    ResumeModule,
+    TodoModule
   ],
-  providers: [ToDoService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
