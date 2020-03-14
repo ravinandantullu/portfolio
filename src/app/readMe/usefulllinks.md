@@ -30,3 +30,9 @@ https://html.spec.whatwg.org/multipage/
 
 # Some design
 https://designmodo.com/slides
+
+# Best Website with few examples
+https://bennettfeely.com/
+
+# Good site for list of text's
+https://www.plaintextlist.com/

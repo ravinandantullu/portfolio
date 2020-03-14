@@ -1,0 +1,13 @@
+$myolor: #bbb;
+
+$colors: (primary: #fec,
+  accent: blue);
+
+.practice {
+  height: 100vh;
+  background-color: $myolor;
+
+  .child-div {
+    background-color: map-get($map: $colors, $key:primary);
+  }
+}
