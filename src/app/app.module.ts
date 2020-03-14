@@ -13,6 +13,7 @@ import { FollowEyesComponent } from './components/follow-eyes/follow-eyes.compon
 import { ResumeModule } from './resume/resume.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TodoModule } from './components/todo/todo.module';
+import { HtmlCssModule } from './modules/html-css/html-css.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { TodoModule } from './components/todo/todo.module';
     ReactiveFormsModule,
     FormPracticeModule,
     ResumeModule,
-    TodoModule
+    TodoModule,
+    HtmlCssModule
   ],
   providers: [],
   bootstrap: [AppComponent]
