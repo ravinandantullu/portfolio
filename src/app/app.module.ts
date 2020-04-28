@@ -15,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TodoModule } from './components/todo/todo.module';
 import { HtmlCssModule } from './modules/html-css/html-css.module';
 import { ViewChildPracticeComponent } from './practice/angular/view-child/view-child-practice/view-child-practice.component';
+import { NameAnimateComponent } from './components/name-animate/name-animate.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ViewChildPracticeComponent } from './practice/angular/view-child/view-c
     BetterHighlightAttributeDirective,
     FollowEyesComponent,
     ViewChildPracticeComponent,
+    NameAnimateComponent,
   ],
   imports: [
     BrowserModule,
