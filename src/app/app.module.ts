@@ -14,6 +14,7 @@ import { ResumeModule } from './resume/resume.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TodoModule } from './components/todo/todo.module';
 import { HtmlCssModule } from './modules/html-css/html-css.module';
+import { ViewChildPracticeComponent } from './practice/angular/view-child/view-child-practice/view-child-practice.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HtmlCssModule } from './modules/html-css/html-css.module';
     BasicHighlightAttributeDirective,
     BetterHighlightAttributeDirective,
     FollowEyesComponent,
+    ViewChildPracticeComponent,
   ],
   imports: [
     BrowserModule,
