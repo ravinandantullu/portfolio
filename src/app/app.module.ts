@@ -16,6 +16,7 @@ import { TodoModule } from './components/todo/todo.module';
 import { HtmlCssModule } from './modules/html-css/html-css.module';
 import { ViewChildPracticeComponent } from './practice/angular/view-child/view-child-practice/view-child-practice.component';
 import { NameAnimateComponent } from './components/name-animate/name-animate.component';
+import { SharedModule } from './practice/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { NameAnimateComponent } from './components/name-animate/name-animate.com
     FormPracticeModule,
     ResumeModule,
     TodoModule,
-    HtmlCssModule
+    HtmlCssModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
